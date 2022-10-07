@@ -1,0 +1,11 @@
+{% extends 'base.html'%}
+{% block title%}Manage Employees{% endblock title%}
+{% block body%}
+    <h1 class = "d-flex justify-content-lg-center py-4">Manage Employees</h1>
+    <div class="container-fluid nav justify-content-center">
+      <a class="btn btn-primary mx-2" href="/viewallemployees" role="button">View all Employees</a>
+      <a class="btn btn-primary mx-2" href="/addanemployee" role="button">Add an Employee</a>
+      <a class="btn btn-primary mx-2" href="/removeanemployee" role="button">Remove an Employee</a>
+      <a class="btn btn-primary mx-2" href="/filterallemployees" role="button">Filter all Employees</a>
+    </div>
+{% endblock body%}
